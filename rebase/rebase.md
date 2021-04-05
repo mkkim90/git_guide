@@ -41,7 +41,7 @@ reword 는 커밋 메시지를 변경하는 명령어입니다.
 ### squash
 squash 은 해당 커밋을 이전 커밋과 합치는 명령어입니다.
 
-###fixup
+### fixup
 fixup 은 squash 와 동일하게 해당 커밋을 이전 커밋과 합치는 명령어지만, 커밋 메시지는 합치지 않습니다. 결과적으로 이전 커밋 메시지만 남게 됩니다.
 
 ### exec
@@ -54,6 +54,8 @@ drop 은 커밋 히스토리에서 커밋을 삭제하는 명령어입니다.
 
 참고
 https://jupiny.com/2018/05/07/git-rebase-i-option/
+
 https://flyingsquirrel.medium.com/git-rebase-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-ce6816fa859d
+
 https://beomseok95.tistory.com/231
 
