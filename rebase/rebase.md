@@ -24,9 +24,36 @@ rebase한 내용을 다른 사람이 git pull로 당겨 받으면 엄청난 conf
 
 
 
-ex ) 
-git rebase -i HEAD~3 을 입력하면 HEAD~3 부터 HEAD까지의 커밋들이 출력됩니다. 
+ex ) `git rebase -i HEAD~3`을 입력하면 HEAD~3부터 HEAD까지의 커밋들이 출력됩니다. 
 
 ![image](https://user-images.githubusercontent.com/46394672/113536369-eaed5e80-9610-11eb-9527-ff389910a2e4.png)
 
+
+### pick
+pick 은 커밋을 사용하겠다는 의미입니다. 이를 이용해서 커밋의 순서를 바꿀 수도 있고, 커밋의 해쉬값을 이용해 특정 커밋을 가져올 수도 있습니다.
+
+### reword
+reword 는 커밋 메시지를 변경하는 명령어입니다.
+
+### edit
+앞서 설명한 reword는 커밋 메시지만 변경하는 명령어였다면, edit 은 커밋 메시지 뿐만 아니라 커밋의 작업 내용도 변경할 수 있는 명령어입니다.
+
+### squash
+squash 은 해당 커밋을 이전 커밋과 합치는 명령어입니다.
+
+###fixup
+fixup 은 squash 와 동일하게 해당 커밋을 이전 커밋과 합치는 명령어지만, 커밋 메시지는 합치지 않습니다. 결과적으로 이전 커밋 메시지만 남게 됩니다.
+
+### exec
+exec 를 이용하면, 각각의 커밋이 적용된 후 실행할 shell 명령어를 지정할 수 있습니다.
+
+### drop
+drop 은 커밋 히스토리에서 커밋을 삭제하는 명령어입니다.
+
+
+
+참고
+https://jupiny.com/2018/05/07/git-rebase-i-option/
+https://flyingsquirrel.medium.com/git-rebase-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-ce6816fa859d
+https://beomseok95.tistory.com/231
 
