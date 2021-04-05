@@ -53,6 +53,7 @@ drop 은 커밋 히스토리에서 커밋을 삭제하는 명령어입니다.
 
 
 참고
+------------
 https://jupiny.com/2018/05/07/git-rebase-i-option/
 
 https://flyingsquirrel.medium.com/git-rebase-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-ce6816fa859d
